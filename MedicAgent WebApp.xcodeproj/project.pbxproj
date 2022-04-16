@@ -11,6 +11,12 @@
 		A4112EF127F270BC00056CC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4112EF027F270BC00056CC7 /* ViewController.swift */; };
 		A4112EF327F270BE00056CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4112EF227F270BE00056CC7 /* Assets.xcassets */; };
 		A4112EF627F270BE00056CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4112EF427F270BE00056CC7 /* Main.storyboard */; };
+		A43928F6280A41DE00E75A2D /* OutOfStockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43928F4280A41DE00E75A2D /* OutOfStockViewController.swift */; };
+		A43928F7280A41DE00E75A2D /* OutOfStockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43928F5280A41DE00E75A2D /* OutOfStockViewController.xib */; };
+		A43928FA280A4BC000E75A2D /* LowOnStockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43928F8280A4BC000E75A2D /* LowOnStockViewController.swift */; };
+		A43928FB280A4BC000E75A2D /* LowOnStockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43928F9280A4BC000E75A2D /* LowOnStockViewController.xib */; };
+		A43928FE280A4C1100E75A2D /* ProductsInTransitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43928FC280A4C1100E75A2D /* ProductsInTransitViewController.swift */; };
+		A43928FF280A4C1100E75A2D /* ProductsInTransitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43928FD280A4C1100E75A2D /* ProductsInTransitViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		A4112EF227F270BE00056CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4112EF527F270BE00056CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4112EF727F270BE00056CC7 /* MedicAgent_WebApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MedicAgent_WebApp.entitlements; sourceTree = "<group>"; };
+		A43928F4280A41DE00E75A2D /* OutOfStockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutOfStockViewController.swift; sourceTree = "<group>"; };
+		A43928F5280A41DE00E75A2D /* OutOfStockViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OutOfStockViewController.xib; sourceTree = "<group>"; };
+		A43928F8280A4BC000E75A2D /* LowOnStockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowOnStockViewController.swift; sourceTree = "<group>"; };
+		A43928F9280A4BC000E75A2D /* LowOnStockViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LowOnStockViewController.xib; sourceTree = "<group>"; };
+		A43928FC280A4C1100E75A2D /* ProductsInTransitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsInTransitViewController.swift; sourceTree = "<group>"; };
+		A43928FD280A4C1100E75A2D /* ProductsInTransitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsInTransitViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +67,13 @@
 				A4112EEE27F270BC00056CC7 /* AppDelegate.swift */,
 				A4112EF027F270BC00056CC7 /* ViewController.swift */,
 				A4112EF227F270BE00056CC7 /* Assets.xcassets */,
+				A43928F4280A41DE00E75A2D /* OutOfStockViewController.swift */,
+				A43928F5280A41DE00E75A2D /* OutOfStockViewController.xib */,
 				A4112EF427F270BE00056CC7 /* Main.storyboard */,
+				A43928FC280A4C1100E75A2D /* ProductsInTransitViewController.swift */,
+				A43928FD280A4C1100E75A2D /* ProductsInTransitViewController.xib */,
+				A43928F8280A4BC000E75A2D /* LowOnStockViewController.swift */,
+				A43928F9280A4BC000E75A2D /* LowOnStockViewController.xib */,
 				A4112EF727F270BE00056CC7 /* MedicAgent_WebApp.entitlements */,
 			);
 			path = "MedicAgent WebApp";
@@ -119,8 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43928F7280A41DE00E75A2D /* OutOfStockViewController.xib in Resources */,
+				A43928FF280A4C1100E75A2D /* ProductsInTransitViewController.xib in Resources */,
 				A4112EF327F270BE00056CC7 /* Assets.xcassets in Resources */,
 				A4112EF627F270BE00056CC7 /* Main.storyboard in Resources */,
+				A43928FB280A4BC000E75A2D /* LowOnStockViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4112EF127F270BC00056CC7 /* ViewController.swift in Sources */,
+				A43928FE280A4C1100E75A2D /* ProductsInTransitViewController.swift in Sources */,
+				A43928F6280A41DE00E75A2D /* OutOfStockViewController.swift in Sources */,
 				A4112EEF27F270BC00056CC7 /* AppDelegate.swift in Sources */,
+				A43928FA280A4BC000E75A2D /* LowOnStockViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
